@@ -1,0 +1,30 @@
+CipherX/
+│── public/                # Static frontend assets
+│   ├── css/
+│   │   ├── styles.css
+│   ├── js/
+│   │   ├── main.js
+│   ├── index.html
+│   ├── encrypt.html
+│   ├── decrypt.html
+│   ├── about.html
+│
+│── views/                 # Server-rendered views (if needed)
+│   ├── layout.ejs
+│   ├── error.ejs
+│
+│── backend/               # Backend logic
+│   ├── routes/
+│   │   ├── encrypt.js
+│   │   ├── decrypt.js
+│   ├── utils/
+│   │   ├── cipher.js
+│   │   ├── aes.js
+│   ├── server.js
+│
+│── config/                # Configuration files
+│   ├── settings.json
+│   ├── env.js
+│
+│── package.json
+│── README.md
