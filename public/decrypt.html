@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Decrypt Text</h1>
+    <input type="text" id="encryptedText" placeholder="Enter encrypted text">
+    <select id="mode">
+        <option value="aes">AES</option>
+        <option value="xor">XOR Obfuscation</option>
+    </select>
+    <button onclick="decrypt()">Decrypt</button>
+    <p id="result"></p>
+    <script src="js/main.js"></script>
+</body>
+</html>
